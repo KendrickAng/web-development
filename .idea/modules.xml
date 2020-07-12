@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/css/css.iml" filepath="$PROJECT_DIR$/css/css.iml" />
       <module fileurl="file://$PROJECT_DIR$/../jest/jest.iml" filepath="$PROJECT_DIR$/../jest/jest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/css/positioning/positioning.iml" filepath="$PROJECT_DIR$/css/positioning/positioning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/css/project/project.iml" filepath="$PROJECT_DIR$/css/project/project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web-development.iml" filepath="$PROJECT_DIR$/.idea/web-development.iml" />
     </modules>
   </component>
