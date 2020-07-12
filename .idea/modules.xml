@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/css/positioning/positioning.iml" filepath="$PROJECT_DIR$/css/positioning/positioning.iml" />
       <module fileurl="file://$PROJECT_DIR$/css/project/project.iml" filepath="$PROJECT_DIR$/css/project/project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web-development.iml" filepath="$PROJECT_DIR$/.idea/web-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websockets/websockets.iml" filepath="$PROJECT_DIR$/websockets/websockets.iml" />
     </modules>
   </component>
 </project>
