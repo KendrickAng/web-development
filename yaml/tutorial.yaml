@@ -1,0 +1,69 @@
+# This is a comment.
+app: user-authentication
+port: 9000
+version: 1.7
+
+# This is an object/dictionary in yaml. Key-value pairs
+# const microservice = { app: ..., port: ..., version: ... }
+microservice:
+  app: user-authentication
+  port: 9000
+  version: 1.7
+
+# This is a list in yaml.
+fruits:
+  - apple
+  - orange
+  - strawberry
+
+# This is a list of dictionaries
+employees:
+  - martin:
+      name: Martin
+      job: Developer
+      skills:
+        - python
+        - perl
+  - tabitha:
+      name: Tabitha
+      job: Devloper
+      skills:
+        - none
+
+# Flow Collections
+# This is shorthand syntax for a dictionary.
+employeess: { name: Martin, job: Developer, skill: Elite }
+
+# This is shorthand syntax for a list.
+fruitss: ['Apple', 'Orange', 'Strawberry']
+
+# This is a boolean
+create_key: yes
+needs_agent: no
+knows_oop: True
+likes_emacs: TRUE
+uses_cvs: false
+am_cool: true
+
+# multiline values
+# Literal Block Scalar | - includes newliens and trailing spaces
+include_newlines: |
+  exactly as you see
+  will appear these three
+  lines of poetry
+
+# Folded Block Scalar > - newlines are folded into spaces
+fold_newlines: >
+  this is really a
+  single line of text
+  despite appearances
+
+# dont do this
+#windows_drive: c:
+# do this
+windows_path: 'c:'
+# or this
+windowss_path: "c:"
+
+# Ansible uses "{{ var }}" for variables. YAML thinks what's after { is a dictionary, so do this:
+foo: "{{ variable }}/additional/string/literal"
